@@ -14,3 +14,8 @@ ng serve
 
 Create Component
 ng g component component-name
+ng g c component-name
+
+Create Module
+ng g module module-name
+ng g m module-name
