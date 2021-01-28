@@ -19,3 +19,7 @@ ng g c component-name
 Create Module
 ng g module module-name
 ng g m module-name
+
+Create Service
+ng g service service-name
+ng g s service-name

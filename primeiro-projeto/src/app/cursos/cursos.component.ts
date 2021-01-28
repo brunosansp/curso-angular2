@@ -10,6 +10,7 @@ export class CursosComponent implements OnInit {
 
   nomePortal: string;
 
+  // cursos: string[] = [ 'Java', 'Angular', 'Javascript'] => COLOCADO EM cursos.service.ts
   cursos: string[];
 
   constructor(private cursosService: CursosService) {
