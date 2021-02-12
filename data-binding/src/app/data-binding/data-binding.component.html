@@ -1,5 +1,4 @@
 <section class="property-binding">
-
   <article>
     <h3>Interpolation - Interpolação</h3>
 
@@ -11,15 +10,14 @@
 
     <p>Curso de Angular e curtir curso: {{ getCurtirCurso() && cursoAngular }}</p>
 
-    <img src='{{ urlImageOne }}'>
+    <img src="{{ urlImageOne }}" />
 
-    <!-- Property Binding -->
-    <img [src]='urlImageTwo'>
-    <!--
-      Mesma coisa que:
-      <img bind-src='urlImageTwo'>
-    -->
+    <p>Property Binding</p>
+    <img [src]="urlImageTwo" />
 
+    <p>Mesma coisa que:</p>
+    <img bind-src="urlImageTwo" />
   </article>
+
 
 </section>
